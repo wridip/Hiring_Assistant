@@ -1,0 +1,40 @@
+TALENT_SCOUT HIRING ASSISTANT - PROJECT DOCUMENTATION
+
+OVERVIEW
+The TalentScout Hiring Assistant is an intelligent chatbot designed to automate the initial screening of job candidates. It uses Artificial Intelligence to conduct a professional conversation, collect data, and generate relevant technical questions in an iterative, one-by-one format.
+
+STEP-BY-STEP WORKFLOW
+
+Step 1: Initiation & Greeting
+The chatbot introduces itself and explains its purpose: to gather preliminary information and conduct a technical screening.
+
+Step 2: Information Gathering
+The chatbot collects 7 key pieces of information:
+1. Full Name
+2. Email Address (Validated)
+3. Phone Number (Validated)
+4. Years of Experience (Validated)
+5. Desired Position
+6. Current Location
+7. Tech Stack (e.g., Python, SQL, React)
+
+Step 3: Real-time Validation & Fallback
+Invalid inputs trigger a polite correction using an AI "Fallback" prompt, ensuring the conversation remains professional even when the user makes a mistake.
+
+Step 4: Iterative Technical Interview (Updated)
+Once the Tech Stack is provided, the chatbot transitions into a dynamic interview mode:
+- **Sequential Questioning:** It asks 3 technical questions for EACH technology listed in the candidate's stack.
+- **Dynamic Generation:** Questions are generated one-by-one using `prompts/dynamic_tech_prompt.txt`, ensuring they are tailored to the candidate's experience level and do not repeat.
+- **Interactive Feedback:** The chatbot waits for the candidate's response to each question before generating the next one.
+
+Step 5: Data Storage & Transcript
+All data is saved in `data/candidates.json`. Instead of a single block of text, the system now stores a structured **Interview Transcript**. This includes every question asked (categorized by technology) and the candidate's specific answer for each.
+
+Step 6: Hiring Manager Dashboard
+Recruiters use `manager_app.py` to:
+- Review candidate profiles.
+- Read through the full, step-by-step interview transcript.
+- Assess performance across different technologies in the candidate's stack.
+
+Step 7: Graceful Exit
+After the final technical question, the chatbot thanks the candidate and closes the session.
