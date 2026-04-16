@@ -1,0 +1,38 @@
+[
+    {
+        "Full Name": "Wridip Sarkar",
+        "Email": "wridip.sarkar@gmail.com",
+        "Phone": "8240328743",
+        "Years of Experience": "0",
+        "Desired Position": "AI/ML Engineer",
+        "Current Location": "kolkata",
+        "Tech Stack": "python, fastapi, langchain, langGraph, Agentic ai"
+    },
+    {
+        "Full Name": "payel sarkar",
+        "Email": "payels333@gmail.com ",
+        "Phone": "8777785097",
+        "Years of Experience": "0",
+        "Desired Position": "interior designer",
+        "Current Location": "kolkata",
+        "Tech Stack": "autocad, 3dsMAX, 2d designing"
+    },
+    {
+        "Full Name": "Wridip Sarkar",
+        "Email": "wridip.sarkar@gmail.com",
+        "Phone": "8240328743",
+        "Years of Experience": "0",
+        "Desired Position": "ai/ml intern",
+        "Current Location": "kolkata",
+        "Tech Stack": "python, machine learning, genAI, multi agent systems, RAG"
+    },
+    {
+        "Full Name": "dilip sarkar",
+        "Email": "dilipda@gmail.com",
+        "Phone": "7777777777",
+        "Years of Experience": "5",
+        "Desired Position": "interior designer",
+        "Current Location": "kolkata",
+        "Tech Stack": "autocad, 3ds max, 2d floor designing "
+    }
+]
