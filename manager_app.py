@@ -45,7 +45,7 @@ else:
         st.divider()
 
         # Interview Section
-        st.subheader("📝 Technical Interview Transcript")
+        st.subheader("Technical Interview Transcript")
         
         transcript = candidate.get("Transcript", [])
         
